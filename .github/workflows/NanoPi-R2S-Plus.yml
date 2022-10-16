@@ -10,8 +10,9 @@ name: NanoPi-R2S-全插件
 
   #schedule:
     #- cron: 0 17 * * *
-   watch:
-     types: started
+   on:
+  watch:
+    types: started
 
 env:
   REPO_URL: https://github.com/DHDAXCW/lede-rockchip

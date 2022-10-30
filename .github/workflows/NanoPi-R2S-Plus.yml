@@ -19,7 +19,7 @@ jobs:
 
     steps:
        - name: Checkout
-         uses: actions/checkout@v2
+         uses: actions/checkout@master
 env:
   REPO_URL: https://github.com/DHDAXCW/lede-rockchip
   REPO_BRANCH: stable
